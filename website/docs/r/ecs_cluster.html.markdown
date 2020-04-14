@@ -32,7 +32,7 @@ The following arguments are supported:
 
 The `setting` configuration block supports the following:
 
-* `name` - (Required) Name of the setting to manage. Valid values: `containerInsights`.
+* `name` - (Required) Name of the setting to manage. Valid values: `containerInsights`. (This turns on CloudWatch metrics)
 * `value` -  (Required) The value to assign to the setting. Value values are `enabled` and `disabled`.
 
 ## default_capacity_provider_strategy
